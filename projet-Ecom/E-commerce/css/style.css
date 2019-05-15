@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #FFB71C;
+}
+/* navbar */
+#name{
+  color: darkred;
+  font-family: Cooper;
+
+}
+.bg{
+  background-color: #FFB71C;
+  /* border-bottom:solid darkred; */
+}
+/* home page */
+.intro{
+    height: 100vh;
+    background-image: url("../img/home2-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.8; 
+}
+.welcome{
+  float: left;
+  margin-top: 40vh;
+  text-align: center;
+  font-family: Cooper;
+  color: #FFB71C;
+  padding-left: 5vh;
+}
+#subtitle{
+    color: darkred;
+    font-size: 7vh;
+    padding-left: 0vh;
+}
+/* articles section */
+.swd-title{
+    text-align: center;
+    font-family: Cooper;
+    color: #FFB71C;
+}
+.swd-title hr{
+    border: dashed #FFB71C;
+    margin-bottom: 10vh;
+}
+.sandwichs
+{
+    padding: 10vh;
+    background-color: darkred;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articls-box {
+    background-color: #FFB71C;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  
+  
+  .articls-box .a-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+  }
+  
+  .articls-box .a-description {
+    color: #4e4e4e;
+  }
+
+  .drinks{
+    padding: 10vh;
+    background-color: #FFB71C;
+  }
+  .drk-title{
+    font-family: Cooper;
+    text-align: center;
+    color: darkred;
+  }
+  .drk-title hr{
+    border:  dashed darkred;
+    margin-bottom: 10vh;
+  }
+  .drinks .articls-box{
+    background-color: darkred;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+  }
+  .drinks .articls-box .a-description {
+    color: white;
+  }
+  
+
+  /* footer section */
+  footer{
+    background-color: #FFB71C;
+    padding: 4.5mm;
+
+  }
+  .copyright{
+    color: darkred;
+    text-align: center;
+  }
+
+  /* login page */
+  .log{
+    height: 100vh;
+    background-image: url("../img/home3-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+  }
+  .login{
+    position: relative;
+    animation-name: down;
+    animation-duration: 2s;
+    background-color: darkred;
+    text-align: center;
+    /* padding: 15vh; */
+    border-radius: 10px; 
+  }
+  @keyframes down {
+    0%   {top:-400px;}
+    100% {top:0rem;}
+  }
+  input{
+    width: 50vh;
+    height: 7vh;
+    border: none;
+    border-bottom: solid 2px #FFB71C;
+    background-color: darkred;
+  }
+  input::placeholder{
+    color: rgba(211, 211, 211, 0.582);
+  }
+  .login button{
+    width: 20vh;
+    height: 5vh;
+    background-color: #FFB71C;
+    color: darkred;
+    border: none;
+    border-radius: 20px; 
+    margin-top: 10vh;
+  }
+  .login button:hover{
+    background-color: rgb(207, 149, 24);
+  }
+
+  
+
+
